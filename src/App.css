@@ -1,0 +1,92 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-image: url('https://img.freepik.com/free-vector/copy-space-blue-circuits-digital-background_23-2148821699.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: rgba();
+  color: aliceblue;
+}
+
+.title h2 {
+  text-align: center;
+  font-size: 30px;
+  margin: 12px;
+  background-image: linear-gradient(rgb(32, 172, 172), rgb(83, 223, 223));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+
+label{
+  font-size: 20px;
+  margin: 0 10px;
+}
+
+.opt{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.opt-children{
+  display: flex;
+  gap: 5px;
+  margin-top: 10px;
+  justify-content: center;
+}
+
+input[type='text'] {
+  border: 3px solid #000;
+  border-radius: 3px;
+  height: 37px;
+  line-height: normal;
+  color: #0d0d0d;
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 16px; 
+  padding: 0 6px;
+  padding-left: 5px;
+}
+
+button{
+  cursor: pointer;
+outline: 0;
+color: #fff;
+background-color: #0d6efd;
+border-color: #0d6efd;
+display: inline-block;
+font-weight: 400;
+line-height: 1.5;
+text-align: center;
+border: 1px solid transparent;
+padding: 6px 12px;
+font-size: 16px;
+border-radius: .25rem;
+transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+button:hover {
+    color: #fff;
+    background-color: #0b5ed7;
+    border-color: #0a58ca;
+}
+
+.sec{
+  display: flex;
+  width: 450px;
+  justify-content: center;
+  gap: 80px;
+}
+
+
+
+
+
+
