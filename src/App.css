@@ -1,7 +1,12 @@
+* {
+  box-sizing: border-box;
+}
+
 body{
   margin: 0;
   padding: 0;
   background-image: url('https://img.freepik.com/free-vector/copy-space-blue-circuits-digital-background_23-2148821699.jpg');
+  backdrop-filter: blur(2px);
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
