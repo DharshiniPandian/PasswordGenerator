@@ -32,12 +32,13 @@ function App() {
 
   return (
     <>
+    <div className="box">
       <div className="title">
         <h2>Password Generator</h2>
       </div>
       <div>
         <div style={{ display: "flex" }}>
-          <label for="">Password</label>
+          <label for="" id="la">Password</label>
           <input
             type="text"
             value={password}
@@ -47,7 +48,7 @@ function App() {
             readOnly
             ref={passRef}
           />
-          <button onClick={copyPassword}>copy</button>
+          <button onClick={copyPassword}>Copy</button>
         </div>
         <div className="opt">
           <div className="opt-children">
@@ -61,6 +62,7 @@ function App() {
             name="length"
             id=""
             placeholder=""
+            className="slider"
           />        
           <label for="length">Length: {length}</label>
           </div>
@@ -91,6 +93,7 @@ function App() {
           </div>
           </div>
         </div>
+      </div>
       </div>
     </>
   );
